@@ -1,0 +1,85 @@
+1. Create a .cpp File
+
+You can use any text editor to create the file. Common editors include nano, vim, or graphical ones like gedit.
+Using nano
+
+    Open a terminal.
+    Create a new file using:
+
+nano myprogram.cpp
+
+Write your C++ code in the editor.
+Save the file:
+
+    Press Ctrl + O, then press Enter.
+    Exit by pressing Ctrl + X.
+    
+    
+    
+    
+    
+    
+    /////////////////////////////////////////////////////////
+    
+    
+    Compile the .cpp File
+
+Use the GNU Compiler Collection (GCC) to compile your file. The g++ command is used for C++ programs.
+
+    Compile the program:
+
+    g++ myprogram.cpp -o myprogram
+
+        myprogram.cpp is your source file.
+        -o myprogram specifies the name of the output binary.
+
+    If the file has no errors, it will create an executable named myprogram.
+
+4. Run the Compiled Program
+
+To run the program:
+
+./myprogram
+
+Example
+Write a Simple Program
+
+    Create the file:
+
+nano hello.cpp
+
+Add the following code:
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+        cout << "Hello, World!" << endl;
+        return 0;
+    }
+
+    Save and exit.
+
+Compile and Run
+
+    Compile the file:
+
+g++ hello.cpp -o hello
+
+Run the program:
+
+./hello
+
+Output:
+
+    Hello, World!
+
+Tips
+
+    If you encounter errors during compilation, read the error messages and fix your code accordingly.
+    If g++ is not installed, install it using:
+
+    sudo apt update
+    sudo apt install g++
+
+
