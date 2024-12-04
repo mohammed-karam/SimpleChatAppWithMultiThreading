@@ -32,6 +32,12 @@ This file is the entry point of the program. It creates two threads—one for th
 To compile the program, run the following command:
 
 ```bash
-g++ main.cpp writer.cpp reader.cpp -o chat_app 
+g++ mai.cpp writer.cpp reader.cpp -o chat_app
+```
+## Run:
+To compile the program, run the following command:
 
+```bash
+./chat_app
+```
 
